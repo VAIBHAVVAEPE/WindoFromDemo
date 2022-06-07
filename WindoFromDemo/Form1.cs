@@ -26,5 +26,33 @@ namespace WindoFromDemo
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtUserName.Clear();
+            txtPassword.Clear();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Loginbutton1_Click(object sender, EventArgs e)
+        {
+            if(txtUserName.Text=="Admin"  && txtPassword.Text == "1234")
+            {
+                MessageBox.Show("Login Success");
+            }
+            else
+            {
+                MessageBox.Show("Login Fail");
+            }
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

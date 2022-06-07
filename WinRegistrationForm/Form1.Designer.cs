@@ -130,6 +130,7 @@
             this.label6.Size = new System.Drawing.Size(128, 22);
             this.label6.TabIndex = 1;
             this.label6.Text = "Passout Year :";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 

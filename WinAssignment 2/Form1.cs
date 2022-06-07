@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinRegistrationForm
+namespace WinAssignment_2
 {
     public partial class Form1 : Form
     {
@@ -17,24 +17,19 @@ namespace WinRegistrationForm
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void labADD_Click(object sender, EventArgs e)
         {
-
+            listBox1.Items.Add(txtUname.Text);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void labDELETE_Click(object sender, EventArgs e)
         {
-
+            listBox1.Items.Remove(listBox1.SelectedItem);
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void labCLEAR_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
+            listBox1.Items.Clear();
         }
     }
 }
