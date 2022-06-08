@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindoNotepad
 {
@@ -44,7 +45,7 @@ namespace WindoNotepad
 
         private void formatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
@@ -52,7 +53,7 @@ namespace WindoNotepad
             FontDialog fd = new FontDialog();
             DialogResult result = fd.ShowDialog();
 
-            if(DialogResult.OK==result)
+            if (DialogResult.OK == result)
             {
                 richTextBox1.SelectionFont = fd.Font;
             }
@@ -60,14 +61,14 @@ namespace WindoNotepad
 
         private void colourToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
             ColorDialog fd1 = new ColorDialog();
             DialogResult result1 = fd1.ShowDialog();
-            if(DialogResult.OK==result1)
+            if (DialogResult.OK == result1)
             {
                 richTextBox1.SelectionColor = fd1.Color;
             }
-            
+
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -75,10 +76,41 @@ namespace WindoNotepad
 
             DialogResult result = MessageBox.Show("do u want exit ?", "Warning", MessageBoxButtons.YesNo
                 , MessageBoxIcon.Warning);
-            if(result==DialogResult.Yes)
+            if (result == DialogResult.Yes)
             {
                 Application.Exit();
             }
+        }
+
+        private void saveASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sd = new SaveFileDialog();
+            sd.DefaultExt = ".txt";
+            sd.Filter = "Text doc(.txt)|*.txt|Word Doc(.docx)|*.docx|Pdf File(.pdf)|*.pdf";
+            DialogResult result = sd.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                StreamWriter sw = new StreamWriter(sd.FileName);
+                sw.Write(richTextBox1.Text);
+                sw.Close();
+
+            }
+
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog od = new OpenFileDialog();
+            od.Filter = "Text doc(.txt)|*.txt|Word Doc(.docx)|*.docx|Pdf File(.pdf)|*.pdf|All Files|*.*";
+            DialogResult result = od.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                StreamReader sr = new StreamReader(od.FileName);
+                richTextBox1.Text = sr.ReadToEnd();
+                sr.Close();
+
+            }
+            
         }
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindoNotepad", "WindoNotepa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAssignment 2", "WinAssignment 2\WinAssignment 2.csproj", "{CA145FBA-E14C-4D0E-AF37-6CCC69F71D2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindoCourseAssignment", "WindoCourseAssignment\WindoCourseAssignment.csproj", "{D03DD827-82A6-4F4C-97EC-48FED74DB799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CA145FBA-E14C-4D0E-AF37-6CCC69F71D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA145FBA-E14C-4D0E-AF37-6CCC69F71D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA145FBA-E14C-4D0E-AF37-6CCC69F71D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
