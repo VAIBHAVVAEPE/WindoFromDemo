@@ -55,6 +55,7 @@
             this.labName.Size = new System.Drawing.Size(90, 16);
             this.labName.TabIndex = 0;
             this.labName.Text = "Course Name";
+            this.labName.Click += new System.EventHandler(this.labName_Click);
             // 
             // labFees
             // 
@@ -67,12 +68,15 @@
             // 
             // btnWrite
             // 
+            this.btnWrite.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWrite.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnWrite.Location = new System.Drawing.Point(426, 77);
             this.btnWrite.Name = "btnWrite";
-            this.btnWrite.Size = new System.Drawing.Size(75, 23);
+            this.btnWrite.Size = new System.Drawing.Size(75, 34);
             this.btnWrite.TabIndex = 1;
             this.btnWrite.Text = "Write";
-            this.btnWrite.UseVisualStyleBackColor = true;
+            this.btnWrite.UseVisualStyleBackColor = false;
             this.btnWrite.Click += new System.EventHandler(this.btnWrite_Click);
             // 
             // btnRead

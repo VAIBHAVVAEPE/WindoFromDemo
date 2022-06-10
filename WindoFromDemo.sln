@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAssignment 2", "WinAssig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindoCourseAssignment", "WindoCourseAssignment\WindoCourseAssignment.csproj", "{D03DD827-82A6-4F4C-97EC-48FED74DB799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindoDatabase", "WindoDatabase\WindoDatabase.csproj", "{3CBBF690-A9F4-49C4-8620-FA0663FFDCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado.netHomeWork_of_ Courese", "Ado.netHomeWork_of_ Courese\Ado.netHomeWork_of_ Courese.csproj", "{82C8C16B-ED6E-496B-A051-94DBA28136AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected Demo", "Disconnected Demo\Disconnected Demo.csproj", "{DC3E3416-4BA7-496A-B034-23819B2A831B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D03DD827-82A6-4F4C-97EC-48FED74DB799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBBF690-A9F4-49C4-8620-FA0663FFDCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBBF690-A9F4-49C4-8620-FA0663FFDCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBBF690-A9F4-49C4-8620-FA0663FFDCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBBF690-A9F4-49C4-8620-FA0663FFDCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C8C16B-ED6E-496B-A051-94DBA28136AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C8C16B-ED6E-496B-A051-94DBA28136AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C8C16B-ED6E-496B-A051-94DBA28136AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C8C16B-ED6E-496B-A051-94DBA28136AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3E3416-4BA7-496A-B034-23819B2A831B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3E3416-4BA7-496A-B034-23819B2A831B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3E3416-4BA7-496A-B034-23819B2A831B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3E3416-4BA7-496A-B034-23819B2A831B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

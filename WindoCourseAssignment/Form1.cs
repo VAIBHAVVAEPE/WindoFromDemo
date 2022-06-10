@@ -75,5 +75,10 @@ namespace WindoCourseAssignment
             }
 
         }
+
+        private void labName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
