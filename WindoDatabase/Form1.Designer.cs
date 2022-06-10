@@ -52,7 +52,6 @@
             this.labId.Size = new System.Drawing.Size(48, 16);
             this.labId.TabIndex = 0;
             this.labId.Text = "Stud Id";
-            this.labId.Click += new System.EventHandler(this.labId_Click);
             // 
             // labname
             // 
@@ -71,7 +70,6 @@
             this.labSalary.Size = new System.Drawing.Size(46, 16);
             this.labSalary.TabIndex = 2;
             this.labSalary.Text = "Salary";
-            this.labSalary.Click += new System.EventHandler(this.labSalary_Click);
             // 
             // txtId
             // 

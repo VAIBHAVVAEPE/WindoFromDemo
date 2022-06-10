@@ -82,8 +82,29 @@ namespace WindoDatabase
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            ds = GetEmpData();
-            dataGridView1.DataSource = ds.Tables["emp"];
+            try
+            {
+                string str = "select * from Stud_Info";
+                cmd = new SqlCommand(str, con);
+                // open DB connection
+                con.Open();
+                // fire the query select
+                dr = cmd.ExecuteReader();
+                DataTable table = new DataTable();
+                table.Load(dr);
+                dataGridView1.DataSource = table;
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                dr.Close();
+            }
 
 
 
