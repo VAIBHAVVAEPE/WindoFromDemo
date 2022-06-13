@@ -17,23 +17,25 @@ namespace WinRegistrationForm
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnReset_Click(object sender, EventArgs e)
         {
+            txtName.Clear();
+            txtMobile.Clear();
+            txtEmail.Clear();
+            txtAdde.Clear();
+            combCity.SelectedIndex = -1;
 
+            combYear.SelectedIndex = -1;
+            rdoFemale.Checked = false;
+            rdoMale.Checked = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSummit_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
+            MessageBox.Show("Name=="+txtName.Text);
+            MessageBox.Show("mobile=="+txtMobile.Text);
+            
 
         }
     }

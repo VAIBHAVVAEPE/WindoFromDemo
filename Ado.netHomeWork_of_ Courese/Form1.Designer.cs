@@ -180,7 +180,8 @@
             this.Controls.Add(this.btnShowAll);
             this.Controls.Add(this.btnClear);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Disconnected archiitechture";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

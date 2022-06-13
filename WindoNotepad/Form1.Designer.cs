@@ -106,14 +106,14 @@
             // 
             this.saveASToolStripMenuItem.Name = "saveASToolStripMenuItem";
             this.saveASToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveASToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveASToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.saveASToolStripMenuItem.Text = "Save AS";
             this.saveASToolStripMenuItem.Click += new System.EventHandler(this.saveASToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem1
             // 
             this.saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
-            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(195, 26);
             this.saveToolStripMenuItem1.Text = "Save ";
             // 
             // openToolStripMenuItem
@@ -220,7 +220,6 @@
             this.formatToolStripMenuItem.Name = "formatToolStripMenuItem";
             this.formatToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.formatToolStripMenuItem.Text = "F&ormat";
-            this.formatToolStripMenuItem.Click += new System.EventHandler(this.formatToolStripMenuItem_Click);
             // 
             // fontToolStripMenuItem
             // 

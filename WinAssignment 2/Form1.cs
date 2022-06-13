@@ -29,7 +29,7 @@ namespace WinAssignment_2
 
         private void labCLEAR_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            txtUname.Clear();
         }
     }
 }

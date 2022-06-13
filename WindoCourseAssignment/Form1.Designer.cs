@@ -36,6 +36,7 @@
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtFees = new System.Windows.Forms.TextBox();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labId
@@ -55,7 +56,6 @@
             this.labName.Size = new System.Drawing.Size(90, 16);
             this.labName.TabIndex = 0;
             this.labName.Text = "Course Name";
-            this.labName.Click += new System.EventHandler(this.labName_Click);
             // 
             // labFees
             // 
@@ -110,11 +110,22 @@
             this.txtFees.Size = new System.Drawing.Size(131, 22);
             this.txtFees.TabIndex = 2;
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(426, 255);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.txtFees);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtId);
@@ -140,6 +151,7 @@
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtFees;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

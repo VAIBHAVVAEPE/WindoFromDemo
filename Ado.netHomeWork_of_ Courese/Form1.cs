@@ -165,5 +165,10 @@ namespace Ado.netHomeWork_of__Courese
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

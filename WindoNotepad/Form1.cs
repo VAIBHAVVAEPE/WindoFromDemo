@@ -43,10 +43,7 @@ namespace WindoNotepad
             richTextBox1.SelectAll();
         }
 
-        private void formatToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -112,5 +109,7 @@ namespace WindoNotepad
             }
             
         }
+
+        
     }
 }

@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.button2 = new System.Windows.Forms.Button();
+            this.labName = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.labEmail = new System.Windows.Forms.Label();
+            this.labMobile = new System.Windows.Forms.Label();
+            this.labAdd = new System.Windows.Forms.Label();
+            this.labYear = new System.Windows.Forms.Label();
+            this.labGender = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtMobile = new System.Windows.Forms.TextBox();
+            this.txtAdde = new System.Windows.Forms.TextBox();
+            this.labCity = new System.Windows.Forms.Label();
+            this.combYear = new System.Windows.Forms.ComboBox();
+            this.combCity = new System.Windows.Forms.ComboBox();
+            this.rdoMale = new System.Windows.Forms.RadioButton();
+            this.rdoFemale = new System.Windows.Forms.RadioButton();
+            this.btnSummit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,138 +58,135 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Registration Data Form";
             // 
-            // label2
+            // labName
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(208, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 22);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Enter Name :";
+            this.labName.AutoSize = true;
+            this.labName.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labName.Location = new System.Drawing.Point(208, 73);
+            this.labName.Name = "labName";
+            this.labName.Size = new System.Drawing.Size(115, 22);
+            this.labName.TabIndex = 1;
+            this.labName.Text = "Enter Name :";
             // 
-            // button1
+            // btnReset
             // 
-            this.button1.BackColor = System.Drawing.Color.Cyan;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.button1.Location = new System.Drawing.Point(212, 361);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 54);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnReset.BackColor = System.Drawing.Color.Cyan;
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.ForeColor = System.Drawing.Color.Cornsilk;
+            this.btnReset.Location = new System.Drawing.Point(212, 361);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(136, 54);
+            this.btnReset.TabIndex = 2;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // label3
+            // labEmail
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(208, 111);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 22);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Enter Email :";
+            this.labEmail.AutoSize = true;
+            this.labEmail.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labEmail.Location = new System.Drawing.Point(208, 111);
+            this.labEmail.Name = "labEmail";
+            this.labEmail.Size = new System.Drawing.Size(112, 22);
+            this.labEmail.TabIndex = 1;
+            this.labEmail.Text = "Enter Email :";
             // 
-            // label4
+            // labMobile
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(208, 147);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 22);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Mobile No. :";
+            this.labMobile.AutoSize = true;
+            this.labMobile.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labMobile.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labMobile.Location = new System.Drawing.Point(208, 147);
+            this.labMobile.Name = "labMobile";
+            this.labMobile.Size = new System.Drawing.Size(105, 22);
+            this.labMobile.TabIndex = 1;
+            this.labMobile.Text = "Mobile No. :";
             // 
-            // label5
+            // labAdd
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(208, 183);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 22);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Addrass :";
+            this.labAdd.AutoSize = true;
+            this.labAdd.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labAdd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labAdd.Location = new System.Drawing.Point(208, 183);
+            this.labAdd.Name = "labAdd";
+            this.labAdd.Size = new System.Drawing.Size(86, 22);
+            this.labAdd.TabIndex = 1;
+            this.labAdd.Text = "Addrass :";
             // 
-            // label6
+            // labYear
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(208, 216);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(128, 22);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Passout Year :";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.labYear.AutoSize = true;
+            this.labYear.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labYear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labYear.Location = new System.Drawing.Point(208, 216);
+            this.labYear.Name = "labYear";
+            this.labYear.Size = new System.Drawing.Size(128, 22);
+            this.labYear.TabIndex = 1;
+            this.labYear.Text = "Passout Year :";
             // 
-            // label7
+            // labGender
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(208, 252);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 22);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Gender :";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.labGender.AutoSize = true;
+            this.labGender.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labGender.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labGender.Location = new System.Drawing.Point(208, 252);
+            this.labGender.Name = "labGender";
+            this.labGender.Size = new System.Drawing.Size(80, 22);
+            this.labGender.TabIndex = 1;
+            this.labGender.Text = "Gender :";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(362, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 3;
+            this.txtName.Location = new System.Drawing.Point(362, 73);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 22);
+            this.txtName.TabIndex = 3;
             // 
-            // textBox2
+            // txtEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(362, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 3;
+            this.txtEmail.Location = new System.Drawing.Point(362, 111);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 3;
             // 
-            // textBox3
+            // txtMobile
             // 
-            this.textBox3.Location = new System.Drawing.Point(362, 149);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 3;
+            this.txtMobile.Location = new System.Drawing.Point(362, 149);
+            this.txtMobile.Name = "txtMobile";
+            this.txtMobile.Size = new System.Drawing.Size(100, 22);
+            this.txtMobile.TabIndex = 3;
             // 
-            // textBox4
+            // txtAdde
             // 
-            this.textBox4.Location = new System.Drawing.Point(362, 185);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 3;
+            this.txtAdde.Location = new System.Drawing.Point(362, 185);
+            this.txtAdde.Name = "txtAdde";
+            this.txtAdde.Size = new System.Drawing.Size(100, 22);
+            this.txtAdde.TabIndex = 3;
             // 
-            // label8
+            // labCity
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(208, 289);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 22);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "City :";
-            this.label8.Click += new System.EventHandler(this.label7_Click);
+            this.labCity.AutoSize = true;
+            this.labCity.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labCity.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labCity.Location = new System.Drawing.Point(208, 289);
+            this.labCity.Name = "labCity";
+            this.labCity.Size = new System.Drawing.Size(51, 22);
+            this.labCity.TabIndex = 1;
+            this.labCity.Text = "City :";
             // 
-            // comboBox1
+            // combYear
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.combYear.FormattingEnabled = true;
+            this.combYear.Items.AddRange(new object[] {
             "2015",
             "2016",
             "2017",
@@ -198,85 +195,84 @@
             "2020",
             "2021",
             "2022"});
-            this.comboBox1.Location = new System.Drawing.Point(362, 213);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 4;
+            this.combYear.Location = new System.Drawing.Point(362, 213);
+            this.combYear.Name = "combYear";
+            this.combYear.Size = new System.Drawing.Size(121, 24);
+            this.combYear.TabIndex = 4;
             // 
-            // comboBox2
+            // combCity
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.combCity.FormattingEnabled = true;
+            this.combCity.Items.AddRange(new object[] {
             "Pune",
             "Sangamner",
             "Mumbai",
             "Nagpur"});
-            this.comboBox2.Location = new System.Drawing.Point(362, 287);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 5;
+            this.combCity.Location = new System.Drawing.Point(362, 287);
+            this.combCity.Name = "combCity";
+            this.combCity.Size = new System.Drawing.Size(121, 24);
+            this.combCity.TabIndex = 5;
             // 
-            // radioButton1
+            // rdoMale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(362, 253);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(58, 20);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdoMale.AutoSize = true;
+            this.rdoMale.Location = new System.Drawing.Point(362, 253);
+            this.rdoMale.Name = "rdoMale";
+            this.rdoMale.Size = new System.Drawing.Size(58, 20);
+            this.rdoMale.TabIndex = 6;
+            this.rdoMale.TabStop = true;
+            this.rdoMale.Text = "Male";
+            this.rdoMale.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdoFemale
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(485, 253);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 20);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdoFemale.AutoSize = true;
+            this.rdoFemale.Location = new System.Drawing.Point(485, 253);
+            this.rdoFemale.Name = "rdoFemale";
+            this.rdoFemale.Size = new System.Drawing.Size(74, 20);
+            this.rdoFemale.TabIndex = 7;
+            this.rdoFemale.TabStop = true;
+            this.rdoFemale.Text = "Female";
+            this.rdoFemale.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSummit
             // 
-            this.button2.BackColor = System.Drawing.Color.Cyan;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.button2.Location = new System.Drawing.Point(362, 361);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 54);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Summit ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.btnSummit.BackColor = System.Drawing.Color.Cyan;
+            this.btnSummit.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSummit.ForeColor = System.Drawing.Color.Cornsilk;
+            this.btnSummit.Location = new System.Drawing.Point(362, 361);
+            this.btnSummit.Name = "btnSummit";
+            this.btnSummit.Size = new System.Drawing.Size(136, 54);
+            this.btnSummit.TabIndex = 2;
+            this.btnSummit.Text = "Summit ";
+            this.btnSummit.UseVisualStyleBackColor = false;
+            this.btnSummit.Click += new System.EventHandler(this.btnSummit_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.rdoFemale);
+            this.Controls.Add(this.rdoMale);
+            this.Controls.Add(this.combCity);
+            this.Controls.Add(this.combYear);
+            this.Controls.Add(this.txtAdde);
+            this.Controls.Add(this.txtMobile);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.btnSummit);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.labCity);
+            this.Controls.Add(this.labGender);
+            this.Controls.Add(this.labYear);
+            this.Controls.Add(this.labAdd);
+            this.Controls.Add(this.labMobile);
+            this.Controls.Add(this.labEmail);
+            this.Controls.Add(this.labName);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Registration form";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,23 +281,23 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label labName;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label labEmail;
+        private System.Windows.Forms.Label labMobile;
+        private System.Windows.Forms.Label labAdd;
+        private System.Windows.Forms.Label labYear;
+        private System.Windows.Forms.Label labGender;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtMobile;
+        private System.Windows.Forms.TextBox txtAdde;
+        private System.Windows.Forms.Label labCity;
+        private System.Windows.Forms.ComboBox combYear;
+        private System.Windows.Forms.ComboBox combCity;
+        private System.Windows.Forms.RadioButton rdoMale;
+        private System.Windows.Forms.RadioButton rdoFemale;
+        private System.Windows.Forms.Button btnSummit;
     }
 }
 

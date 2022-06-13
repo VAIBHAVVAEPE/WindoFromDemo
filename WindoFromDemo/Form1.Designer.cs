@@ -49,7 +49,6 @@
             this.label2.Size = new System.Drawing.Size(169, 32);
             this.label2.TabIndex = 0;
             this.label2.Text = "Login Page";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -72,7 +71,6 @@
             this.label3.Size = new System.Drawing.Size(89, 22);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnLogin
             // 
@@ -117,7 +115,6 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(148, 30);
             this.txtUserName.TabIndex = 6;
-            this.txtUserName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtPassword
             // 
@@ -127,7 +124,6 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(148, 30);
             this.txtPassword.TabIndex = 7;
-            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // Form1
             // 
